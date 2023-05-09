@@ -1,0 +1,13 @@
+.container {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.link_text {
+    padding-left: 10px;
+}
+
+.link_text:hover {
+    border-bottom: 1px solid white;
+}
