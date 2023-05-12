@@ -18,6 +18,10 @@ module.exports = {
       {
         "name": "projects",
         "link": "/projects"
+      }, 
+      {
+        "name": "experience",
+        "link": "/experience"
       }
     ],
     description: `cs @ northeastern '24`,

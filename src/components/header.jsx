@@ -14,43 +14,12 @@ const header_active_style = {
 
 const Header = ({ site_title, nav_links }) => (
   <header
-    // style={{
-    //   // margin: `0 auto`,
-    //   width: "100%",
-    //   left: 0,
-    //   backgroundColor: "mrgb(0, 0, 0, 75%)",
-    //   padding: `var(--space-1) var(--size-1)`,
-    //   display: `flex`,
-    //   alignItems: `center`,
-    //   justifyContent: `space-between`,
-    //   // color: "mrgb(1, 1, 1, 50%)",
-    //   background: 'mrgb(0, 0, 0, 75%)',
-    //   borderRadius: '10px'
-    // }}
-    // style={{
-    //   padding: 0,
-    // }}
     style={{
       left: 0
     }}
   >
 
-      <div
-          // style={{
-          //   margin: `0 auto`,
-          //   width: "100%",
-          //   left: 0,
-          //   backgroundColor: "mrgb(0, 0, 0, 75%)",
-          //   padding: `var(--space-1) var(--size-1)`,
-          //   display: `flex`,
-          //   alignItems: `center`,
-          //   justifyContent: `space-between`,
-          //   // color: "mrgb(1, 1, 1, 50%)",
-          //   background: 'mrgb(0, 0, 0, 75%)',
-          //   borderRadius: '10px'
-          // }}
-    // }}
-      >
+      <div>
         <nav>
           <ul style={{ 
             display: "flex",

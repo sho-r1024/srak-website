@@ -17,27 +17,9 @@ const Redirect = ({destination, link_text, link_img}) => {
             }
         >
             <div className="container">
-                {/* <script>
-                    if(link_text) {
-                        <img 
-                            src={link_img} 
-                            alt="LinkedIn logo" 
-                            style={{
-                                height: "20px",
-                                width: "20px",
-                            }}></img>        
-                    } else {
-                        <img 
-                            src={link_img} 
-                            alt="LinkedIn logo" 
-                            style={{
-                                height: "50px",
-                                width: "50px",
-                            }}></img>                            
-                    }   
-                </script>  */}
                 <div className="link_img" id="image">
                     <img 
+                        alt={link_text}
                         src={link_img}
                         style={{
                             height: `${img_size}px`,
