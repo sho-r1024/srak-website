@@ -18,7 +18,7 @@ const Footer = () => (
     >
            © {new Date().getFullYear()} &middot; built by Shoaib Rakhangi with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>       
+          <a href="https://www.gatsbyjs.com" style={{color: "white"}}>Gatsby</a>       
     </div>
 )
 
