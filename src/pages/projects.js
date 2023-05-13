@@ -52,7 +52,7 @@ const projects = [
         links: [
             {
                 logo: github,
-                destination: "https://github.com/sho-r1024/srak-personal-website"
+                destination: "https://github.com/sho-r1024/srak-website"
             }
         ]
     }
