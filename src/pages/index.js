@@ -27,45 +27,13 @@ const IndexPage = () => (
     minHeight: "100vh",
   }}>
     <Layout>
-      {/* <div className={styles.textCenter}> */}
       <div>
-        <h1>
-          hi, my name is <b>shoaib rakhangi</b> <i>&#40;he/him&#41;</i>
+        <h1 className="introduction">
+          hi, my name is <b>shoaib</b> <i>&#40;he/him&#41;</i>
         </h1>
 
         <p>and this is my corner of the internet...</p>
-        
-        {/* <p className={styles.intro}>
-          <b>Example pages:</b>{" "}
-          {samplePageLinks.map((link, i) => (
-            <React.Fragment key={link.url}>
-              <Link to={link.url}>{link.text}</Link>
-              {i !== samplePageLinks.length - 1 && <> · </>}
-            </React.Fragment>
-          ))}
-          <br />
-          Edit <code>src/pages/index.js</code> to update this page.
-        </p> */}
       </div>
-      {/* <ul className={styles.list}>
-        {links.map(link => (
-          <li key={link.url} className={styles.listItem}>
-            <a
-              className={styles.listItemLink}
-              href={`${link.url}${utmParameters}`}
-            >
-              {link.text} ↗
-            </a>
-            <p className={styles.listItemDescription}>{link.description}</p>
-          </li>
-        ))}
-      </ul>
-      {moreLinks.map((link, i) => (
-        <React.Fragment key={link.url}>
-          <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-          {i !== moreLinks.length - 1 && <> · </>}
-        </React.Fragment>
-      ))} */}
     <div className={styles.index_links}>
       {links.map(
         link => (
@@ -76,10 +44,6 @@ const IndexPage = () => (
           />
         )
       )}
-      {/* <Redirect 
-                  link_img={linkedin}
-                  link_text="LinkedIn &#8594;" 
-                  destination="https://www.linkedin.com/in/shoaib-rakhangi-5b3352204/"/> */}
     </div>
     </Layout>
   </body>
