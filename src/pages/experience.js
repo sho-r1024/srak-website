@@ -30,16 +30,16 @@ const experiences = [
 const Experience = () => (
     <Layout>
         <div className='experience-container'>
-            <h1>Skills</h1>
-            <h3>Technologies and Programs</h3>
+            <h1>skills</h1>
+            <h3>technologies and programs</h3>
             <ul>
                 <li>Spyder, Eclipse, IntelliJ, GitHub, Office Suite, VSCode, PyCharm, vim, nano, AWS, JIRA, Jenkins</li>
             </ul>
-            <h3><b>Coding Languages</b></h3>
+            <h3><b>coding languages</b></h3>
             <ul>
                 <li>Java, Python, Racket, HTML, TypeScript, JavaScript, Linux/Bash, C++, C, x86 Assembly, React.js</li>
             </ul>
-            <h1>Work/Technical Experience</h1>
+            <h1>work/technical experience</h1>
             <div className={styles.experience_list}>
                 {
                     experiences.map(

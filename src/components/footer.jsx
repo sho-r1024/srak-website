@@ -16,7 +16,7 @@ const Footer = () => (
             flex: "none",
         }}
     >
-           © {new Date().getFullYear()} &middot; built by Shoaib Rakhangi with
+           © {new Date().getFullYear()} &middot; built by shoaib rakhangi with
           {` `}
           <a href="https://www.gatsbyjs.com" style={{color: "white"}}git >Gatsby</a>       
     </div>
