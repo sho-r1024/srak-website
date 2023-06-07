@@ -1,11 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby's default starter
+  My personal website!
 </h1>
 
 This website was made with <a href="https://www.gatsbyjs.com">Gatsby</a>. Below are instructions on how to go about developing your own projext:
