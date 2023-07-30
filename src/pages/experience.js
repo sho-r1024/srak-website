@@ -51,7 +51,7 @@ const Experience = () => (
                             <div>
                                 <p><b>{experience.name}</b></p>
                                 <p><i>{experience.timeframe}</i></p>
-                                <p><b>Skills: </b> {experience.relevant_techs}</p>
+                                <p><b>Relevant Skills: </b> {experience.relevant_techs}</p>
                                 <p>{experience.description}</p>
                             </div>
                         )                   
