@@ -39,6 +39,10 @@ const Experience = () => (
             <ul>
                 <li>Java, Python, Racket, HTML, TypeScript, JavaScript, Linux/Bash, C++, C, x86 Assembly, React.js</li>
             </ul>
+            <h3><b>certifications</b></h3>
+            <ul>
+                <li>AWS Certified Cloud Practicioner (May 2023 - May 2026)</li>
+            </ul>
             <h1>work/technical experience</h1>
             <div className={styles.experience_list}>
                 {
