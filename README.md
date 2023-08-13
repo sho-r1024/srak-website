@@ -3,7 +3,7 @@
   My personal website!
 </h1>
 
-Here is my first foray into a self started web development project. So far this website just contains an overview of myself and my experience, but I'm hoping to convert this into a blog within the next few months.
+Here is my first foray into a self started web development project. So far this website just contains an overview of myself and my experience, but I'm hoping to convert this into a blog sometime soon.
 
 This website was made with <a href="https://www.gatsbyjs.com">Gatsby</a>. Below are instructions on how to go about developing your own project:
 
