@@ -24,7 +24,7 @@ module.exports = {
         "link": "/experience"
       }
     ],
-    description: `cs @ northeastern '24`,
+    description: `Hi, my name is Shoaib,
     author: `@sho-r1024`,
     siteUrl: `https://srakhangi.com/`,
   },
