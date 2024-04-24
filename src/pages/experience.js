@@ -58,7 +58,7 @@ const Experience = () => (
                     )
                 }
             </div>
-            <b>Currently looking for internship/co-op opportunities from June 2023 - December 2023!</b>
+            <b>Currently looking for full-time opportunities starting June 2024!</b>
         </div> 
     </Layout>
 )
