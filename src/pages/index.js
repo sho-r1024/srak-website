@@ -29,7 +29,7 @@ const IndexPage = () => (
     <Layout>
       <div>
         <h1 className="introduction">
-          hi, my name is <b>shoaib</b> <i>&#40;he/him&#41;</i>
+          hi, my name is <b>shoaib</b>
         </h1>
 
         <p>and this is my corner of the internet...</p>
