@@ -60,6 +60,7 @@ h1, h3 {
   flex: 1;
   gap: 3px;
   margin: 20px auto;
+  min-width: 50vw;
   max-width: var(--size-content);
   padding: var(--size-gutter);
   animation: fadeIn 1s;
