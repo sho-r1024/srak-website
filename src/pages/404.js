@@ -8,7 +8,7 @@ const NotFoundPage = () => (
     height: "100%"
   }}>
     <Layout>
-      <h1>404: Not Found</h1>
+      <h1>404: not found</h1>
       <p>Sorry! This page doesn't exist!</p>
     </Layout>
   </div>
