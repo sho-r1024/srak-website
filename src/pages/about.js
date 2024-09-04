@@ -13,7 +13,7 @@ const AboutPage = () => (
             <p>
                 Originally from NYC, I am an undergrad at Northeastern University c'24 studying CS with a Systems concentration. 
                 During my 3 years here, I've worked with so many different technologies ranging from socket programming in Python
-                to OOD with Java and Mutex Programming in C. Over my time, I've developed a deep interest in networks and systems and a deep
+                to OOD with Java and mutex Programming in C. Over my time, I've developed a deep interest in networks and systems and a deep
                 love for the art of coding. As someone went into CS with zero prior programming knowledge, there's still a long way for me
                 to go, but I've learned so, so much and I am looking forward to blossoming even further and finding my own voice in tech.
             </p>
