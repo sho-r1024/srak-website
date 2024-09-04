@@ -2,10 +2,13 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import About from "../components/about"
+import Experience from "../components/experience"
 import Redirect from "../components/redirects"
 import linkedin from "../images/linkedin-white.png"
 import github from "../images/github.png"
 import * as styles from "../components/index.module.css"
+import Projects from "../components/projects"
 
 const links = [
   {
@@ -28,23 +31,27 @@ const IndexPage = () => (
   }}>
     <Layout>
       <div>
-        <h1 className="introduction">
-          hi, my name is <b>shoaib</b>
-        </h1>
-
-        <p>and this is my corner of the internet...</p>
+        <div>
+            <h1 className="introduction">
+              hi, my name is <b>shoaib</b>
+            </h1>
+            <p>and this is my corner of the internet...</p>
+        </div>
+        <div className={styles.index_links}>
+          {links.map(
+            link => (
+              <Redirect
+                link_img={link.img}
+                link_text={link.text}
+                destination={link.url} 
+              />
+            )
+          )}
+        </div>
       </div>
-    <div className={styles.index_links}>
-      {links.map(
-        link => (
-          <Redirect
-            link_img={link.img}
-            link_text={link.text}
-            destination={link.url} 
-          />
-        )
-      )}
-    </div>
+      <About></About>
+      <Experience></Experience>
+      <Projects></Projects>
     </Layout>
   </body>
 
