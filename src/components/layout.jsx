@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
             className="insides" 
             style={{
             }}>
-            <main>{children}</main>
+            {children}
           </div>
       <Footer />
       </body>

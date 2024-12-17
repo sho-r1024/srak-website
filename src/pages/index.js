@@ -49,9 +49,12 @@ const IndexPage = () => (
           )}
         </div>
       </div>
-      <About></About>
-      <Experience></Experience>
-      <Projects></Projects>
+      <div>
+        <About></About>
+        <Experience></Experience>
+        <Projects></Projects>
+      </div>
+
     </Layout>
   </body>
 

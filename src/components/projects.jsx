@@ -75,8 +75,10 @@ function render_project_links(project) {
     }
 }
 
-const ProjectsPage = () => (
-    <>
+const Projects = () => (
+    <div 
+        className='projects'
+    >
         <h1>projects</h1>
         <ul>
         {projects.map(
@@ -91,7 +93,7 @@ const ProjectsPage = () => (
             )
         )}
         </ul>
-    </>
+    </div>
 )
 
-export default ProjectsPage
+export default Projects

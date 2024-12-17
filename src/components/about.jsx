@@ -5,9 +5,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const About = () => (
-    <div style={{
-        height: "100%",
-    }}>
+    <div 
+        style={{
+            height: "100%",
+        }}
+        className="about"
+    >
         <h1> about me </h1>
         <p>
             Originally from NYC, I am an undergrad at Northeastern University c'24 studying CS with a Systems concentration. 
